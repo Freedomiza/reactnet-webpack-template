@@ -1,0 +1,15 @@
+{
+  "presets": ["airbnb"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "svgs": "svgs"
+        }
+      }
+    ],
+    ["@babel/plugin-proposal-class-properties"]
+  ]
+}
